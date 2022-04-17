@@ -1,0 +1,57 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+}
+
+#logo {
+    padding-top: 15px;
+    width: 230px;
+}
+#titulo {
+    text-align: center;
+    font-size: 80px;
+    color: #191e5e;
+    margin-bottom: 20px;
+    text-shadow: 0.1em 0.1em 0.2em white;
+}
+
+.iniciohistoria {
+    width: 50%;
+    padding-left: 25%;
+}
+.paragrafoinicial {
+    color: #191e5e;
+    font-size: 45px;
+    text-align: center;
+}
+
+#play {
+    background-color: #790a2a;
+    color: #de6689;
+    border:#de6689;
+    width:200px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 50px;
+}
+
+#play:hover {
+    background-color: #de6689;
+    color: #790a2a;
+    font-size: 45px;
+}
+

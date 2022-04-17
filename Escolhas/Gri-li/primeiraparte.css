@@ -1,0 +1,48 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./imgs/shan-yu-mulan.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+}
+
+#logo {
+    padding-top: 15px;
+    width: 150px;
+}
+
+.escolha {
+    width: 50%;
+    padding-left: 25%;
+}
+.escolha1 {
+    color: #de6689;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    margin-top: 15px;
+}
+
+button {
+    background-color: rgb(104, 104, 104);
+    width: 150px;
+    color: #de6689;
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+    border-radius: 90%;
+    border-color: black;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    width: 180px;
+    font-size: 55px;
+}

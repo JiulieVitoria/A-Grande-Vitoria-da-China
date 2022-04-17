@@ -1,0 +1,79 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+}
+
+#logo {
+    padding-top: 15px;
+    width: 150px;
+}
+
+.fimdejogo {
+    width: 50%;
+    margin-left: 25%;
+    color: #ffffff;
+}
+.vitoria {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em #790a2a;
+    margin-top: 15px;
+}
+
+p.vitoria {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.texto { 
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em #790a2a;
+}
+
+#gif {
+    align-items: center;
+    margin-top: 30px;
+    width: 350px;
+    height: 200px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+#gif:hover {
+    filter: drop-shadow(0 10px 16px white);
+    width: 380px;
+    height: 230px;
+
+}
+
+button {
+    background-color: #de6689;
+    color: #191e5e;
+    border:#191e5e;
+    width:180px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #5ae4ef;
+    color: #191e5e;
+    font-size: 35px;
+}

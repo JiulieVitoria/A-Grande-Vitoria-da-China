@@ -1,0 +1,79 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./imgs/0014513.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    text-align: center;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+}
+
+#logo {
+    padding-top: 15px;
+    width: 150px;
+}
+
+.fimdejogo {
+    width: 100%;
+    color: #790a2a;
+}
+.gamveover {
+    color: #790a2a;;
+    font-size: 150px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em white;
+    margin-top: 15px;
+}
+
+p.gameover {
+    font-size: 80px;
+    color:#790a2a;
+}
+
+.texto {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#gif {
+    align-items: center;
+    margin-top: 30px;
+    width: 450px;
+    height: 300px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+
+#gif:hover {
+    filter: drop-shadow(0 10px 16px white);
+    width: 500px;
+    height: 350px;
+
+}
+
+button {
+    background-color: #790a2a;
+    color: #de6689;
+    border:#de6689;
+    width:200px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #de6689;
+    color: #790a2a;
+    font-size: 35px;
+}
