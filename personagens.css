@@ -23,7 +23,7 @@ body {
 }
 .escolha1 {
     color: black;
-    font-size: 38px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -78,4 +78,48 @@ body {
 .personagens img:hover {
     filter: drop-shadow(0 10px 16px white);
     
+}
+
+button {
+    background-color: #790a2a;
+    color: #de6689;
+    border:#de6689;
+    width:200px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #de6689;
+    color: #790a2a;
+    font-size: 42px;
+}
+
+#escolherjs {
+    background-color: #790a2a;
+    color: #de6689;
+    border:#de6689;
+    width:200px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Square Peg', cursive;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#escolherjs:hover {
+    background-color: #de6689;
+    color: #790a2a;
+    font-size: 42px;
 }
