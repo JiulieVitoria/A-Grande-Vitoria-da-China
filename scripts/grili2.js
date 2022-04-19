@@ -1,4 +1,4 @@
-function segundagrili() {
+function segundaGrili() {
     while (question != 1 || question != 2) {
         var question = prompt(
             "1 Você diz a Mushu que terão mais sorte se esperarem o Shan Yu agir.\n2 Fala para o Mushu convencer Mulan a ir embora, pois é perigoso irritar os guardas."

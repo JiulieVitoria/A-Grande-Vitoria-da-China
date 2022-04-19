@@ -1,4 +1,4 @@
-function primeiragrili() {
+function primeiraGrili() {
     while (question != 1 || question != 2) {
         var question = prompt(
             "1 Voltar pra casa, se esconder na gaiola e nunca mais sair de lá.\n2 Ir para a Cidade Imperial com Mushu e Mulan, torcendo para conseguir ajudá-los."

@@ -1,4 +1,4 @@
-function terceiragrili() {
+function terceiraGrili() {
     while (question != 1 || question != 2 || question  != 3) {
         var question = prompt(
             "1 Você diz a Mushu que Mulan precisa esperar Li Shang e seus amigos, pois sozinha não daria conta de Shan Yu.\n2 Você diz a Mushu que vai o ajudar a voar até os fogos de artifício.\n3 Você diz a Mushu que Mulan consegue lutar com ele, pois ela é forte e habilidosa, e conseguiria derrotá-lo."

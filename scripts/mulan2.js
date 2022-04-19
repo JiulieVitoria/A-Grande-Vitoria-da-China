@@ -1,4 +1,4 @@
-function segundamulan() {
+function segundaMulan() {
     while (question != 1 || question != 2) {
         var question = prompt(
             "1 Aguardar os Hunos aparecerem para ajudar.\n2 Tentar avisar aos Guardas do Imperador."

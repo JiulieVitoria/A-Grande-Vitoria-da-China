@@ -1,4 +1,4 @@
-function terceiramulan() {
+function terceiraMulan() {
     while (question != 1 || question != 2 || question  != 3) {
         var question = prompt(
             "1 Ter uma luta com espadas e derrotá-lo assim.\n2 Incendiar o andar dos fogos de artifício com a ajuda de Mushu e Gri-li, que queimaria Shan Yu.\n3 Pedir ajuda a Li Shang e seus companheiros."

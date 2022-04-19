@@ -1,4 +1,4 @@
-function segundamushu() {
+function segundaMushu() {
     while (question != 1 || question != 2) {
         var question = prompt(
             "1 Você dá a idéia de aguardarem os hunos agirem para ajudar.\n2 Tenta convencer Mulan a ir embora, pois é perigoso irritar os guardas."

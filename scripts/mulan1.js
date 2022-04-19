@@ -1,4 +1,4 @@
-function primeiramulan() {
+function primeiraMulan() {
     while (question != 1 || question != 2) {
         var question = prompt(
             "1 Voltar pra casa e pedir perdão ao seu pai.\n2 Ir para a Cidade Imperial avisar seus ex-companheiros."
