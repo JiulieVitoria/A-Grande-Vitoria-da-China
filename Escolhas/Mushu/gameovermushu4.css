@@ -77,3 +77,7 @@ button:hover {
     color: #790a2a;
     font-size: 35px;
 }
+
+a {
+    text-decoration: none;
+}

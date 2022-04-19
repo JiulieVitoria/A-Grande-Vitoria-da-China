@@ -4,10 +4,10 @@ function segundaGrili() {
             "1 Você diz a Mushu que terão mais sorte se esperarem o Shan Yu agir.\n2 Fala para o Mushu convencer Mulan a ir embora, pois é perigoso irritar os guardas."
         );
         if (question == 1) {
-            window.location.href = "../Escolhas/Gri-li/terceiraparte.html";
+            window.location.href = "../../Escolhas/Grili/terceiraparte.html";
             break;
         } else if (question == 2) {
-            window.location.href = "../Escolhas/Gri-li/gameovergrili2.html";
+            window.location.href = "../../Escolhas/Grili/gameovergrili2.html";
             break;
         } else {
             alert("Digite 1 ou 2");

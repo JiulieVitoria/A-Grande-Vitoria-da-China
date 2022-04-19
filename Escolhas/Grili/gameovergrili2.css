@@ -4,9 +4,9 @@
 }
 
 body {
-    background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
+    background-image: url("./imgs/0014513.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
@@ -18,62 +18,66 @@ body {
 }
 
 .fimdejogo {
-    width: 50%;
-    margin-left: 25%;
-    color: #ffffff;
+    width: 100%;
+    color: #790a2a;
 }
-.vitoria {
-    color: #ffffff;
+.gamveover {
+    color: #790a2a;;
+    font-size: 150px;
     text-align: center;
-    text-shadow: 0.1em 0.1em 0.2em #790a2a;
+    text-shadow: 0.1em 0.1em 0.2em white;
     margin-top: 15px;
 }
 
-p.vitoria {
-    font-size: 60px;
-    color: #ffffff;
+p.gameover {
+    font-size: 80px;
+    color:#790a2a;
 }
 
-.texto { 
-    font-size: 35px;
-    margin-top: 15px;
+.texto {
+    font-size: 50px;
+    margin-top: 5px;
     margin-bottom: 5px;
     font-weight: bold;
-    text-shadow: 0.1em 0.1em 0.2em #790a2a;
+    font-size: 35px;
 }
 
 #gif {
     align-items: center;
     margin-top: 30px;
-    width: 350px;
-    height: 200px;
+    width: 450px;
+    height: 300px;
     border-radius: 60%;
     cursor: pointer;
 }
 
 #gif:hover {
     filter: drop-shadow(0 10px 16px white);
-    width: 380px;
-    height: 230px;
+    width: 500px;
+    height: 350px;
 
 }
 
 button {
-    background-color: #de6689;
-    color: #191e5e;
-    border:#191e5e;
-    width:180px;
+    background-color: #790a2a;
+    color: #de6689;
+    border:#de6689;
+    width:200px;
     border-radius: 50%;
     font-size: 30px;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 button:hover {
-    background-color: #5ae4ef;
-    color: #191e5e;
+    background-color: #de6689;
+    color: #790a2a;
     font-size: 35px;
+}
+
+a {
+    text-decoration: none;
 }

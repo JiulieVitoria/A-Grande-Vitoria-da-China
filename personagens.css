@@ -49,6 +49,7 @@ body {
     align-items: center;
     max-width: 500px;
     max-height: 500px;
+    text-decoration: none;
 }
 
 #griliimg {
@@ -94,6 +95,7 @@ button {
     transition: 0.3s ease-in-out;
     margin-top: 30px;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 button:hover {
@@ -122,4 +124,8 @@ button:hover {
     background-color: #de6689;
     color: #790a2a;
     font-size: 42px;
+}
+
+a {
+    text-decoration: none;
 }
