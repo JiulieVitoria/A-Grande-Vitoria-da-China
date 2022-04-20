@@ -95,7 +95,6 @@ button {
     transition: 0.3s ease-in-out;
     margin-top: 30px;
     margin-right: 10px;
-    text-decoration: none;
 }
 
 button:hover {
@@ -104,28 +103,111 @@ button:hover {
     font-size: 42px;
 }
 
-#escolherjs {
-    background-color: #790a2a;
-    color: #de6689;
-    border:#de6689;
-    width:200px;
-    padding-bottom: 5px;
-    border-radius: 50%;
-    font-size: 40px;
-    font-family: 'Lobster Two', cursive;
-    font-family: 'Square Peg', cursive;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    margin-top: 30px;
-    margin-left: 10px;
-}
-
-#escolherjs:hover {
-    background-color: #de6689;
-    color: #790a2a;
-    font-size: 42px;
-}
-
 a {
     text-decoration: none;
 }
+
+@media (max-width: 769px) {
+    body {
+        background-image: url("./imgs/ponte.jpg");
+        background-size: 100%;
+    }
+    #logo {
+        width:70px;
+    }
+    .escolha1 {
+        font-size: 20px;
+    }
+    .personagens {
+        font-size: 20px
+    }
+    .personagens1 {
+        font-size: 20px;
+    }
+    .opções {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    #griliimg {
+        width: 70px;
+        height: 70px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    #mulanimg {
+        width: 70px;
+        height: 70px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    #mushuimg{
+        width: 70px;
+        height: 70px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    button {
+        width: 80px;
+        font-size: 25px;
+        margin-top: 2px;
+    }
+    button:hover {
+        font-size: 27px;
+    }
+}    
+
+@media (max-width: 426px) {
+    body {
+        background-image: url("./imgs/pontecel.png");
+        background-size: 100%;
+    }
+    #logo {
+        width: 50px;
+    }
+    .escolha1 {
+        font-size: 15px;
+    }
+    .personagens {
+        font-size: 15px
+    }
+    .personagens1 {
+        font-size: 15px;
+    }
+    .opções {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    
+    #griliimg {
+        width: 50px;
+        height: 50px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    #mulanimg {
+        width: 50px;
+        height: 50px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    #mushuimg{
+        width: 50px;
+        height: 50px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    button {
+        width: 40px;
+        font-size: 15px;
+        margin-top: 2px;
+        padding-bottom: 2px;
+    }
+    button:hover {
+        font-size: 17px;
+    }
+}   

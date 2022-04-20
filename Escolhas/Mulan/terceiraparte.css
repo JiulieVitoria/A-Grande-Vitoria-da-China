@@ -46,3 +46,48 @@ button:hover {
     width: 180px;
     font-size: 55px;
 }
+@media (max-width: 769px) {
+    body {
+        background-image: url("./imgs/telhadomulan.jpg");
+        background-size: 100%;
+    }
+    #logo {
+        width:90px;
+    }
+    .escolha1 {
+        font-size: 25px;
+        margin-top: 3px;
+    }
+
+    button {
+        width: 70px;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    button:hover {
+        font-size: 22px;
+    }
+}    
+
+@media (max-width: 426px) {
+    body {
+        background-image: url("./imgs/telhadomulancel.jpg");
+        background-size: 100%;
+    }
+    #logo {
+        width:70px;
+    }
+    .escolha1 {
+        font-size: 19px;
+        color: #5ae4ef;
+        text-shadow: 0.1em 0.1em 0.2em #790a2a;
+    }
+    button {
+        width: 80px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    button:hover {
+        font-size: 22px;
+    }
+}    

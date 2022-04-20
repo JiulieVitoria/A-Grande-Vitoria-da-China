@@ -21,41 +21,38 @@ body {
     width: 100%;
     color: #790a2a;
 }
-.gamveover {
+.gameover {
     color: #790a2a;;
-    font-size: 150px;
+    font-size: 80px;
     text-align: center;
     text-shadow: 0.1em 0.1em 0.2em white;
     margin-top: 15px;
 }
 
-p.gameover {
-    font-size: 80px;
-    color:#790a2a;
-}
-
 .texto {
+    width: 50%;
+    padding-left: 25%;
     font-size: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 35px;
+    text-align: center;
 }
 
 #gif {
     align-items: center;
     margin-top: 30px;
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     border-radius: 60%;
     cursor: pointer;
 }
 
 #gif:hover {
     filter: drop-shadow(0 10px 16px white);
-    width: 420px;
-    height: 270px;
-
+    width: 400px;
+    height: 250px;
 }
 
 button {
@@ -81,3 +78,74 @@ button:hover {
 a {
     text-decoration: none;
 }
+
+
+@media (max-width: 769px) {
+    body {
+        background-image: url("./imgs/0014513.jpg");
+        background-size: 150%;
+    }
+    #logo {
+        width:90px;
+    }
+    .gameover {
+        font-size: 30px;
+        margin-top: 2px;
+    }
+    .texto {
+        font-size: 20px;
+    }
+    #gif {
+        width: 200px;
+        height: 150px;
+        margin-top: 4px;
+    }
+    #gif:hover {
+        filter: drop-shadow(0 10px 16px white);
+        width: 230px;
+        height: 180px;
+    }
+    button {
+        width: 120px;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    button:hover {
+        font-size: 22px;
+    }
+}    
+
+@media (max-width: 426px) {
+    body {
+        background-image: url("./imgs/gameoverscel.png");
+        background-size: 100%;
+    }
+    #logo {
+        width:90px;
+    }
+    .gameover {
+        font-size: 25px;
+        margin-top: 2px;
+    }
+    .texto {
+        font-size: 15px;
+    }
+    #gif {
+        width: 150px;
+        height: 100px;
+        margin-top: 4px;
+    }
+    #gif:hover {
+        filter: drop-shadow(0 10px 16px white);
+        width: 230px;
+        height: 180px;
+    }
+    button {
+        width: 120px;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    button:hover {
+        font-size: 22px;
+    }
+} 

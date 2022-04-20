@@ -81,3 +81,74 @@ button:hover {
 a {
     text-decoration: none;
 }
+
+@media (max-width: 769px) {
+    body {
+        background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
+        background-size: 150%;
+    }
+    #logo {
+        width:90px;
+    }
+    .vitoria {
+        font-size: 30px;
+        margin-top: 2px;
+    }
+    .texto {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+    #gif {
+        width: 230px;
+        height: 100px;
+        margin-top: 4px;
+    }
+    #gif:hover {
+        filter: drop-shadow(0 10px 16px white);
+        width: 260px;
+        height: 130px;
+    }
+    button {
+        width: 120px;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    button:hover {
+        font-size: 22px;
+    }
+}    
+
+@media (max-width: 426px) {
+    body {
+        background-image: url("./imgs/iniciocelular.jpg");
+        background-size: 100%;
+    }
+    #logo {
+        width:90px;
+    }
+    .vitoria {
+        font-size: 25px;
+        margin-top: 2px;
+    }
+    .texto {
+        font-size: 15px;
+    }
+    #gif {
+        width: 150px;
+        height: 100px;
+        margin-top: 4px;
+    }
+    #gif:hover {
+        filter: drop-shadow(0 10px 16px white);
+        width: 160px;
+        height: 10px;
+    }
+    button {
+        width: 120px;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    button:hover {
+        font-size: 22px;
+    }
+} 

@@ -59,3 +59,55 @@ a {
     text-decoration: none;
 }
 
+@media (max-width: 769px) {
+    body {
+        background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
+        background-size: 100%;
+    }
+    #logo {
+        width:150px
+    }
+    #titulo {
+        font-size: 40px;
+    }
+    .paragrafoinicial {
+        font-size: 25px;
+    }
+    #play {
+        width: 80px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    #play:hover {
+        background-color: #de6689;
+        color: #790a2a;
+        font-size: 22px;
+    }
+}    
+
+@media (max-width: 426px) {
+    body {
+        background-image: url("./imgs/iniciocelular.jpg");
+        background-size: 100%;
+    }
+    #logo {
+        width: 80px;
+    }
+    #titulo {
+        font-size: 25px;
+    }
+    .paragrafoinicial {
+        font-size: 20px;
+    }
+    #play {
+        width: 55px;
+        font-size: 22px;
+        margin-top: 10px;
+    } 
+    #play:hover {
+        background-color: #de6689;
+        color: #790a2a;
+        font-size: 24px;
+    }
+    
+}   
