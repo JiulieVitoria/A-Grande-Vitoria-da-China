@@ -6,7 +6,7 @@
 body {
     background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
