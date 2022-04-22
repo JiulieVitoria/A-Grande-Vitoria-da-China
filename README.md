@@ -5,7 +5,7 @@ Projeto Final do Módulo 1: Jogo de Escolhas
   <a href="#autor">Autora</a> 
   
 </div>
-<img src="../imgs/primeirapagina.png"> 
+<img src="./imgs/primeirapagina.png"> 
      
 <h2 id="resumo"> Resumo do projeto </h2>
   <p> Para finalizar o módulo 1 do curso de Web Desenvolvedor Full Stack, nos foi pedido um Jogo de Escolha para praticar o que aprendemos nas aulas. Foram longas cinco semanas, mas devido a didática da nossa facilitadora Inara Almeida, alcançamos o objetivo. 
