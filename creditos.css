@@ -199,3 +199,57 @@ a {
         font-size: 32px;
     }
 }
+
+@media (min-width: 1600px) {
+    body {
+        background-size: cover;
+    }
+    #logo {
+        width: 300px
+    }
+
+    #titulo {
+        font-size: 65px;
+    }
+
+    #um {
+        font-size: 60px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    #dois {
+        font-size: 55px;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+
+    p {
+        font-size: 40px;
+        color: #790a2a;
+        text-align: left;
+    }
+
+    li {
+        font-size: 45px;
+        color: #790a2a;
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    #inicio {
+        width: 200px;
+        font-size: 80px;
+        margin-top: 40px;
+        margin-bottom: 90px;
+    }
+
+    #inicio:hover {
+        background-color: #de6689;
+        color: #790a2a;
+        font-size: 90px;
+    }
+}

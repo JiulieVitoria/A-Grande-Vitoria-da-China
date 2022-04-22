@@ -111,3 +111,30 @@ a {
     }
     
 }   
+
+@media (min-width: 1600px) {
+    body {
+        background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
+        background-size: cover;
+    }
+    #logo {
+        width:300px
+    }
+    #titulo {
+        font-size: 80px;
+    }
+    .paragrafoinicial {
+        font-size: 60px;
+    }
+    #play {
+        width: 150px;
+        font-size: 45px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    #play:hover {
+        background-color: #de6689;
+        color: #790a2a;
+        font-size: 47px;
+    }
+}    

@@ -151,3 +151,38 @@ a {
         font-size: 22px;
     }
 } 
+
+
+@media (min-width: 1600px) {
+    body {
+        background-size: cover;
+    }
+    #logo {
+        width:300px;
+    }
+    .vitoria {
+        font-size: 70px;
+        margin-top: 2px;
+    }
+    .texto {
+        font-size: 60px;
+    }
+    #gif {
+        width: 400px;
+        height: 200px;
+        margin-top: 4px;
+    }
+    #gif:hover {
+        filter: drop-shadow(0 10px 16px white);
+        width: 420px;
+        height: 200px;
+    }
+    button {
+        width: 200px;
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    button:hover {
+        font-size: 44px;
+    }
+} 

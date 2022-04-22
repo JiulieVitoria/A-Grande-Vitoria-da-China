@@ -211,3 +211,57 @@ a {
         font-size: 17px;
     }
 }   
+
+
+@media (min-width: 1600px) {
+    body {
+        background-image: url("./imgs/pontecel.png");
+        background-size: cover;
+    }
+    #logo {
+        width: 300px;
+    }
+    .escolha1 {
+        font-size: 45px;
+    }
+    .personagens {
+        font-size: 45px;
+    }
+    .personagens1 {
+        font-size: px;
+    }
+    .opções {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    
+    #griliimg {
+        width: 300px;
+        height: 300px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    #mulanimg {
+        width: 300px;
+        height: 300px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    
+    #mushuimg{
+        width: 300px;
+        height: 300px;
+        border-radius: 70%;
+        cursor: pointer;
+    }
+    button {
+        width: 140px;
+        font-size: 55px;
+        margin-top: 2px;
+        padding-bottom: 2px;
+    }
+    button:hover {
+        font-size: 57px;
+    }
+}   

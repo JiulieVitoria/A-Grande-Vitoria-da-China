@@ -6,7 +6,7 @@
 body {
     background-image: url("./imgs/0014513.jpg");
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 150%;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
@@ -145,5 +145,39 @@ a {
     }
     button:hover {
         font-size: 22px;
+    }
+} 
+
+@media (min-width: 1600px) {
+    body {
+        background-size: 200%;
+    }
+    #logo {
+        width:300px;
+    }
+    .gameover {
+        font-size: 80px;
+        margin-top: 2px;
+    }
+    .texto {
+        font-size: 70px;
+    }
+    #gif {
+        width: 450px;
+        height: 300px;
+        margin-top: 4px;
+    }
+    #gif:hover {
+        filter: drop-shadow(0 10px 16px white);
+        width: 480px;
+        height: 320px;
+    }
+    button {
+        width: 240px;
+        font-size: 60px;
+        margin-top: 15px;
+    }
+    button:hover {
+        font-size: 72px;
     }
 } 

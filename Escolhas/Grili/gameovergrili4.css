@@ -148,3 +148,37 @@ a {
         font-size: 22px;
     }
 } 
+
+@media (min-width: 1600px) {
+    body {
+        background-size: 200%;
+    }
+    #logo {
+        width:300px;
+    }
+    .gameover {
+        font-size: 70px;
+        margin-top: 2px;
+    }
+    .texto {
+        font-size: 60px;
+    }
+    #gif {
+        width: 450px;
+        height: 300px;
+        margin-top: 4px;
+    }
+    #gif:hover {
+        filter: drop-shadow(0 10px 16px white);
+        width: 480px;
+        height: 320px;
+    }
+    button {
+        width: 180px;
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    button:hover {
+        font-size: 72px;
+    }
+} 

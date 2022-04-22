@@ -91,3 +91,25 @@ button:hover {
         font-size: 22px;
     }
 }    
+
+@media (min-width: 1600px) {
+    body {
+        background-size: cover;
+    }
+    #logo {
+        width:300px;
+    }
+    .escolha1 {
+        font-size: 60px;
+        color: #5ae4ef;
+        text-shadow: 0.1em 0.1em 0.2em #790a2a;
+    }
+    button {
+        width: 200px;
+        font-size: 60px;
+        margin-top: 15px;
+    }
+    button:hover {
+        font-size: 62px;
+    }
+}    

@@ -90,3 +90,24 @@ button:hover {
         font-size: 37px;
     }
 }    
+
+@media (min-width: 1600px) {
+    body {
+        background-image: url("./imgs/shan-yu-mulan.gif");
+        background-size: cover;
+    }
+    #logo {
+        width:300px;
+    }
+    .escolha1 {
+        font-size: 120px;
+    }
+
+    button {
+        width: 200px;
+        font-size: 80px;
+    }
+    button:hover {
+        font-size: 90px;
+    }
+}    
