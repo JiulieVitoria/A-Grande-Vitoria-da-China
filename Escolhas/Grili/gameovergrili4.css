@@ -6,7 +6,7 @@
 body {
     background-image: url("./imgs/0014513.jpg");
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 130%;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
@@ -118,7 +118,7 @@ a {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/gameoverscel.png");
-        background-size: 100%;
+        background-size: 200%;
     }
     #logo {
         width:90px;

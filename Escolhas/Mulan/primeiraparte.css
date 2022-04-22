@@ -6,7 +6,7 @@
 body {
     background-image: url("./imgs/shan-yu-mulan.gif");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
@@ -51,7 +51,7 @@ button:hover {
 @media (max-width: 769px) {
     body {
         background-image: url("./imgs/shan-yu-mulan.gif");
-        background-size: 100%;
+        background-size: 120%;
     }
 
     #logo {
@@ -75,7 +75,8 @@ button:hover {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/shanyucel.jpg");
-        background-size: 100%;
+        background-size: 180%;
+        background-position: top;
     }
 
     #logo {

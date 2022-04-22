@@ -6,7 +6,7 @@
 body {
     background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
@@ -62,7 +62,7 @@ a {
 @media (max-width: 769px) {
     body {
         background-image: url("./imgs/Jardim\ -\ Inicio.jpg");
-        background-size: 100%;
+        background-size: auto;
     }
     #logo {
         width:150px
@@ -88,7 +88,7 @@ a {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/iniciocelular.jpg");
-        background-size: 100%;
+        background-size: 150%;
     }
     #logo {
         width: 80px;

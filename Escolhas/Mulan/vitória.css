@@ -121,7 +121,7 @@ a {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/iniciocelular.jpg");
-        background-size: 100%;
+        background-size: 200%;
     }
     #logo {
         width:90px;

@@ -49,7 +49,7 @@ button:hover {
 @media (max-width: 769px) {
     body {
         background-image: url("./imgs/pesadelo.gif");
-        background-size: 100%;
+        background-size: 150%;
     }
     #logo {
         width:90px;
@@ -72,7 +72,7 @@ button:hover {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/pesadelocel.jpg");
-        background-size: 100%;
+        background-size: 200%;
     }
     #logo {
         width:70px;

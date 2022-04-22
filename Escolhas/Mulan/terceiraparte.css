@@ -72,7 +72,8 @@ button:hover {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/telhadomulancel.jpg");
-        background-size: 100%;
+        background-size: 180%;
+        background-position: top;
     }
     #logo {
         width:70px;

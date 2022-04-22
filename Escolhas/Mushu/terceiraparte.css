@@ -6,7 +6,7 @@
 body {
     background-image: url("./imgs/pesadelo.gif");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
@@ -49,7 +49,7 @@ button:hover {
 @media (max-width: 769px) {
     body {
         background-image: url("./imgs/pesadelo.gif");
-        background-size: 100%;
+        background-size: 150%;
     }
     #logo {
         width:90px;
@@ -72,7 +72,7 @@ button:hover {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/pesadelocel.jpg");
-        background-size: 100%;
+        background-size: 220%;
     }
     #logo {
         width:70px;

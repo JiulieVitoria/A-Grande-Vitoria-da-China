@@ -6,7 +6,7 @@
 body {
     background-image: url("./imgs/ponte.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
     font-family: 'Lobster Two', cursive;
     font-family: 'Square Peg', cursive;
@@ -110,7 +110,7 @@ a {
 @media (max-width: 769px) {
     body {
         background-image: url("./imgs/ponte.jpg");
-        background-size: 100%;
+        background-size: cover;
     }
     #logo {
         width:70px;
@@ -162,7 +162,7 @@ a {
 @media (max-width: 426px) {
     body {
         background-image: url("./imgs/pontecel.png");
-        background-size: 100%;
+        background-size: 150%;
     }
     #logo {
         width: 50px;
